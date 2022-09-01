@@ -92,10 +92,8 @@ section{
     text-align:center;
     padding:10px;
 }
-.dimensioni{
+fieldset input{
     font-size:20px;
-}
-.tratteggio{
     border-bottom:1px dashed;
 }
 .bottone{
@@ -112,6 +110,7 @@ section{
     background-color:grey;
     margin-block:5px;
     font-size:20px;
+    text-align:left;
 }
 .bottom{
     text-align:right;

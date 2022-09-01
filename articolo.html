@@ -16,6 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/b2eabd4d5b.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./assets/css/stile.css" />
   </head>
   <body>
@@ -32,18 +36,25 @@
       </div>
       <nav>
         <ul>
-          <li><a href="index.html" title="Home Page">Home</a></li>
+          <li>
+            <a href="index.html" title="Home Page"
+              ><i class="fa-thin fa-right"></i> Home
+              <i class="fa-thin fa-left"></i
+            ></a>
+          </li>
           <li>
             <a
               href="articoli.html"
               title="Elenco degli articoli tecnici pubblicati"
-              >Articoli</a
-            >
+              ><i class="fa-thin fa-right"></i> Articoli
+              <i class="fa-thin fa-left"></i
+            ></a>
           </li>
           <li>
             <a href="contatti.html" title="Candidati inviando un tuo cv"
-              >Lavora con noi</a
-            >
+              ><i class="fa-thin fa-right"></i> Lavora con noi
+              <i class="fa-thin fa-left"></i
+            ></a>
           </li>
         </ul>
       </nav>
@@ -55,7 +66,10 @@
       <article>
         <h1 class="titolo">Come creare un template per i post</h1>
         <p class="paragrafo-grey">
-          di Mario Rossi - <span> pubblicato il 25-10-2020</span>
+          <i class="fa-solid fa-pen"></i>
+          di Mario Rossi -
+          <i class="fa-solid fa-clock"></i>
+          <span> pubblicato il 25-10-2020</span>
         </p>
 
         <p>
@@ -169,14 +183,13 @@
           </p>
 
           <form method="POST" action="elabora_form.php" class="centrato">
-            <fieldset class="tratteggio">
+            <fieldset>
               <input
                 type="email"
                 name="user_email"
                 id="user_email"
                 placeholder="inserisci l'email"
                 required
-                class="dimensioni"
               />
               <button type="submit" class="bottone">Iscriviti!</button>
             </fieldset>
@@ -192,7 +205,7 @@
             title="Passaggi guidati per validare correttamente tutto il codice sviluppato"
             >Validare il codice HTML</a
           >
-          <p>Categoria: develop</p>
+          <p><i class="fa-sharp fa-solid fa-tag"> </i>Categoria: develop</p>
           <p class="bottom">Data: 18-9-2020</p>
         </div>
 
@@ -202,7 +215,7 @@
             title="Passaggi guidati per controllare e correggere tutto il codice sviluppato"
             >Correggere la sintassi</a
           >
-          <p>Categoria: develop</p>
+          <p><i class="fa-sharp fa-solid fa-tag"> </i>Categoria: develop</p>
           <p class="bottom">Data: 16-9-2020</p>
         </div>
 
@@ -212,7 +225,9 @@
             title="Consigli ed approcci per ridurre il peso della pagina"
             >Meno Kb nella pagina</a
           >
-          <p>Categoria: ottimizzazione</p>
+          <p>
+            <i class="fa-sharp fa-solid fa-tag"></i>Categoria: ottimizzazione
+          </p>
           <p class="bottom">Data: 30-9-2020</p>
         </div>
       </aside>
