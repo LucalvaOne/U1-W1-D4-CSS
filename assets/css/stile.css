@@ -92,12 +92,46 @@ section{
     text-align:center;
     padding:10px;
 }
+.dimensioni{
+    font-size:20px;
+}
 .tratteggio{
     border-bottom:1px dashed;
 }
 .bottone{
     background-color:blue;
     color:white;
+    font-size:20px;
+}
+.grassetto{
+    font-weight:bold;
+    font-size:25px;
+    text-align:center;
+}
+.articoli{
+    background-color:grey;
+    margin-block:5px;
+    font-size:20px;
+}
+.bottom{
+    text-align:right;
+    font-size:20px;
+}
+footer{
+    text-align:center;
+    background-color:rgb(112, 107, 107);
+    color:white;
+    font-size:20px;
+    margin:5px;
+}
+footer p{
+    padding:20px;
+}
+address a{
+    color:purple;
+}
+address{
+    padding:30px;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 
